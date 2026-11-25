@@ -1,0 +1,38 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.*
+application-secret*.*
+application-prod.*
+docker-compose.override.yml
+compose.override.yml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.sso
+*.ora
+wallet*.zip
+
+# Financial data, imports and exports
+/data/
+/extratos/
+/imports/
+/exports/
+/backups/
+*.csv
+*.ofx
+*.qif
+*.pdf
+*.xlsx
+*.xls
+*.db
+*.sqlite*
+*.dmp
+
+# Generated files
+node_modules/
+dist/
+*.log
